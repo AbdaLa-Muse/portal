@@ -1,13 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color: yellow;
+    width: auto;
+    overflow-x: hidden;
+    
 }
 .container{
     background-color:#2C3E50 ;
     height: 100vh;
+    width: 100%;
 }
 .container .section1{
-    background-color:#FFFFFF;
+    background-color:#ECF0F1;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     display: flex;
@@ -46,6 +55,7 @@
 .container .about h2{
     font-family: Georgia, serif;
    font-weight: normal;
+   line-height: 35px;
 }
 
 
@@ -53,29 +63,241 @@
 /* section2 halkaan ayuu ka bilaamamanaya  */
 
 .section2{
-    background-color: #1e293b;
-    height: 500px;
+    background-color: rgb(15 23 42);
+    height: auto;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+    margin-bottom: auto;
 }
-.section2 > div{
+.section2 h1{
+    /* background-color: yellow; */
+    width: 50%;
+   text-align: center;
+   color: #6cc6ff;
+   font-size: 60px;
+   margin: 40px 0 40px 0;
+   letter-spacing: 5px;
+}
+
+.section2 .logoSkills{
+    /* display: flex;
+     /* background-color: rebeccapurple; 
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    width: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 80px;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.section2 .logoSkills> div{
     background-color: #2C3E50 ;
     border-radius: 8px;
-    height: auto;
-    width: 20%;
-    text-align: center;
- 
-
+    /* height: 160px; */
+    /* text-align: center; */
+    padding: 10px;
+    /* width: 160px; */
+}
+.section2 .logoSkills h3{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    padding-bottom: 20px;
 }
 
-.html{
-    height: 20px;
+.section2 .logoSkills svg{
+    height: 50px;
 }
-svg{
-    height: 100px;
- 
-}
-.frame{
+ .section2 .logoSkills svg .frame{
     fill: #6cc6ff;
+}
+
+
+
+
+/* section 3 halkaan ayuu ka bailamanaya*/
+
+.section3{
+    background-color:#1e293b;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section3 h1{
+    width: 50%;
+    text-align: center;
+    color: #6cc6ff;
+    font-size: 60px;
+    margin: 40px 0 40px 0;
+    letter-spacing: 5px;
+}
+.section3 .logTools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 80px;
+    width: auto;
+    text-align: center;
+}
+.section3 .logTools > div{
+    background-color: rgb(15 23 42);
+    border-radius: 8px;
+    /* height: 160px; */
+    /* text-align: center; */
+    padding: 10px;
+    /* width: 160px; */
+}
+.section3 .logTools h4{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.section3 .logTools h5{
+    color: rgb(187, 180, 180);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+.section3 .logTools svg{
+    height: 50px;
+}
+.section3 .logTools svg .frame{
+    fill: #6cc6ff;
+}
+
+
+
+/* halkan waxaa ka bilaamanaya section 4*/
+
+.section4{
+    background-color: rgb(15 23 42);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section4 h1{
+    width: 50%;
+    text-align: center;
+    color: #6cc6ff;
+    font-size: 60px;
+    margin: 40px 0 40px 0;
+    letter-spacing: 5px;
+}
+.section4 .projects{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+ .section4 .projects > div{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 100px;
+    border-radius: 8px;
+    background-color: #1e293b;
+ }
+
+ .section4 .projects .project1 h3 ,.section4 .projects .project2 h3{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: rgb(207, 207, 207);
+ }
+
+
+
+
+/* halkaan waxaa ka bilaamanaya section 5 */
+
+.section5{
+    background-color:#1e293b;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section5 h1{
+    width: 50%;
+    text-align: center;
+    color: #6cc6ff;
+    font-size: 60px;
+    margin: 40px 0 40px 0;
+    letter-spacing: 5px;
+}
+.section5 .boxServices{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.section5 .boxServices > div{
+    background-color: rgb(15 23 42);
+    border-radius: 8px;
+    /* height: 160px; */
+    text-align: center;
+    padding: 20px;
+    /* width: 160px; */
+}
+
+.section5 .boxServices h4{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin-top: 18px;
+    padding-bottom: 20px;
+}
+.section5 .boxServices h5{
+    color: rgb(187, 180, 180);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+.section5 .boxServices svg .frame{
+    fill: #6cc6ff;
+}
+.section5 .boxServices svg{
+    height: 50px;
+}
+
+
+
+/* halkaan waxaa ka bilaamanaya section 6 */
+.section6{
+    background-color:#6cc6ff;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.section6 .contactsLogo{
+    display: flex;
+    gap: 30px;
+
+}
+
+.section6 .contactsLogo svg{
+    height: 20px;
 }

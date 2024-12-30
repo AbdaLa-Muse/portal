@@ -584,3 +584,134 @@ body{
 }
 
 
+
+/* oppo mobil 16s*/
+
+
+@media (min-width:284px) and (max-width:575px){
+    .body{
+        overflow-x: hidden;
+    }
+    .container{
+       width: 459px;
+       height: auto;
+       background-color: yellow;
+    }
+    .container .section1{
+            background-color:#ECF0F1;
+            font-family: 'Roboto', sans-serif;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 20px;
+    }
+    .container .section1 nav{
+        background-color: #2C3E50;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        width: 100%;
+        gap: 20px;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .container .section1 nav a{
+        font-size: 15px;
+    }
+    .container .about img{
+        height: 150px;
+        border-radius: 40%;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .container .about h2{
+        font-family: Georgia, serif;
+       font-weight: normal;
+       line-height: 30px;
+       margin-left: 20px;
+       font-size: 16px;
+    }
+    .section2 h1{
+        /* background-color: yellow; */
+        width: 50%;
+       text-align: center;
+       color: #6cc6ff;
+       font-size: 67px;
+       margin: 40px 0 40px 0;
+       letter-spacing: 5px;
+    }
+    .section2 .logoSkills{
+        /* display: flex;
+         /* background-color: rebeccapurple; 
+        justify-content: center;
+        gap: 80px;
+        flex-wrap: wrap;
+        width: 100%; */
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        gap: 80px;
+        width: auto;
+        text-align: center;
+        padding: 20px;
+    
+    }
+  
+ 
+    .section3 h1{
+        width: 50%;
+        text-align: center;
+        color: #6cc6ff;
+        font-size: 57px;
+        margin: 40px 0 40px 0;
+        letter-spacing: 5px;
+    }
+    .section3 .logTools {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        gap: 80px;
+        width: auto;
+        text-align: center;
+    }
+    .section4 h1{
+        width: 50%;
+        text-align: center;
+        color: #6cc6ff;
+        font-size: 57px;
+        margin: 40px 0 40px 0;
+        letter-spacing: 5px;
+    }
+    .section4 .projects{
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section5 h1{
+        width: 50%;
+        text-align: center;
+        color: #6cc6ff;
+        font-size: 57px;
+        margin: 40px 0 40px 0;
+        letter-spacing: 5px;
+    }
+    .section5 .boxServices{
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+    /* .container .section2, .section3, .section4, .section5, .section6{
+        display:none;
+    } */
+}

@@ -599,6 +599,7 @@ body{
     }
     .container .section1{
             background-color:#ECF0F1;
+               background-color: yellow;
             font-family: 'Roboto', sans-serif;
             height: auto;
             display: flex;

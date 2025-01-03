@@ -32,7 +32,6 @@ body{
     margin-top: 30px;
     width: 80%;
     border-radius: 20px;
-    position: fixed;
 }
 .container .section1 nav a{
     color: white;
@@ -63,7 +62,16 @@ body{
     color: #6cc6ff;;
 }
 
+nav > a{
+    transition: all .8s ease-in;
 
+ }
+ nav:hover > a{
+     /* transform: translateY(-20%); */
+     transform: rotate(5deg);
+     border-radius: 20%;
+  
+ }
 
 
 
@@ -103,6 +111,7 @@ body{
     width: auto;
     text-align: center;
     padding: 20px;
+    /* background-color: yellow; */
 
 }
 
@@ -129,6 +138,16 @@ body{
  .section2 .logoSkills svg .frame{
     fill: #6cc6ff;
 }
+
+.section2 .logoSkills > div{
+   transition: all .7s ease;
+}
+.section2:hover .logoSkills > div{
+    /* transform: translateY(-20%); */
+    transform: rotate(10deg);
+    border-radius: 20%;
+}
+
 
 
 
@@ -189,6 +208,14 @@ body{
 .section3 .logTools svg .frame{
     fill: #6cc6ff;
 }
+.section3 .logTools > div{
+    transition: all .7s ease;
+ }
+ .section3:hover .logTools  > div{
+     /* transform: translateY(-20%); */
+     transform: rotate(10deg);
+     border-radius: 20%;
+ }
 
 
 
@@ -228,6 +255,14 @@ body{
     letter-spacing: 2px;
     margin-top: 10px;
     color: rgb(207, 207, 207);
+ }
+ .section4 .projects > div{
+    transition: all .7s ease-in;
+ }
+ .section4:hover .projects > div{
+     /* transform: translateY(-20%); */
+     transform: rotate(10deg);
+     border-radius: 20%;
  }
 
 
@@ -289,6 +324,14 @@ body{
     height: 50px;
 }
 
+.section5 .boxServices > div{
+    transition: all .7s ease-in;
+ }
+ .section5:hover .boxServices > div{
+     /* transform: translateY(-20%); */
+     transform: rotate(10deg);
+     border-radius: 20%;
+ }
 
 
 /* halkaan waxaa ka bilaamanaya section 6 */
@@ -308,6 +351,16 @@ body{
 .section6 .contactsLogo svg{
     height: 20px;
 }
+.section6 .contactsLogo > svg{
+    transition: all .8s ease-in;
+
+ }
+ .section6:hover .contactsLogo > svg{
+     /* transform: translateY(-20%); */
+     transform: rotate(20deg);
+     border-radius: 20%;
+  
+ }
 
 
 

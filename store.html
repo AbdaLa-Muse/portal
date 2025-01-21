@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            background-color: #2C3E50;
+            max-width: 1536px;
+            width: 90%;
+            position: relative;
+            height: 100px; 
+            overflow: hidden;
+            /* waa markaa rabto inaa mask ahaan ka dhigta container
+             kaaga ama tranparent daciifiso function kan ayaa isticmaalaysaa
+             labo argument ayuu qaata kan koo waad waa horizental adoo ka dhiganaaya 
+             right kan labaadna waa rgbp transprent isla rgpa labada hore waa left
+             transparent labada kalana waa right trabsparenbt
+            */
+            mask-image: linear-gradient(
+                to right,
+                rgba(0,0,0,0),
+                rgba(0,0,0,1)20%,
+                rgba(0,0,0,1)80%,
+                rgba(0,0,0,0)
+
+            );
+        }
+
+        .item{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid whitesmoke    ;
+            height: 100px;
+            width: 100px;
+            background-color:  #6cc6ff;
+            position: absolute;
+            left: calc(200px * 8);
+            animation-name: scrolLeft;
+            animation-duration: 30s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+           
+        }
+
+        @keyframes scrolLeft{
+            to{
+                left: -100px;
+            }
+        }
+
+        .item1{
+            animation-delay:-26.25s;
+        }
+        .item2{
+            animation-delay: -22.5s;
+        }
+        .item3{
+            animation-delay: -18.75s;
+        }
+        .item4{
+            animation-delay: -15s;
+        }
+        .item5{
+            animation-delay: -11.25s;
+        }
+        .item6{
+            animation-delay: -7.5s;
+        }
+        .item7{
+            animation-delay: -3.75s;
+        } 
+        .item8{
+            animation-delay: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item item1"></div>    
+    <div class="item item2"></div>
+    <div class="item item3"></div>
+    <div class="item item4"></div>    
+    <div class="item item5"></div>
+    <div class="item item6"></div>
+    <div class="item item7"></div>    
+    <div class="item item8"></div>
+</div>
+</body>
+</html>

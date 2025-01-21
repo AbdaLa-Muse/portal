@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,77 +11,64 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
         }
+
         .container{
-            background-color: #2C3E50;
-            max-width: 1536px;
-            width: 90%;
+            background: sienna;
+            height: 100px;
+            width: 100%;
+            padding:30px;
             position: relative;
-            height: 100px; 
             overflow: hidden;
-            /* waa markaa rabto inaa mask ahaan ka dhigta container
-             kaaga ama tranparent daciifiso function kan ayaa isticmaalaysaa
-             labo argument ayuu qaata kan koo waad waa horizental adoo ka dhiganaaya 
-             right kan labaadna waa rgbp transprent isla rgpa labada hore waa left
-             transparent labada kalana waa right trabsparenbt
-            */
             mask-image: linear-gradient(
                 to right,
                 rgba(0,0,0,0),
                 rgba(0,0,0,1)20%,
                 rgba(0,0,0,1)80%,
                 rgba(0,0,0,0)
-
             );
+            
         }
 
         .item{
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid whitesmoke    ;
-            height: 100px;
+            background-color: rgb(196, 197, 197);
+            height:80px;
             width: 100px;
-            background-color:  #6cc6ff;
             position: absolute;
-            left: calc(200px * 8);
-            animation-name: scrolLeft;
-            animation-duration: 30s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-           
+            left: 100%;
+            animation: scrolLeft 30s linear infinite;
         }
 
-        @keyframes scrolLeft{
+
+        @keyframes scrolLeft {
             to{
-                left: -100px;
+                left:-100px;
             }
         }
-
         .item1{
-            animation-delay:-26.25s;
+            animation-delay: calc(30s / 8 * (8 - 1) * -1);
+
         }
         .item2{
-            animation-delay: -22.5s;
+            animation-delay: calc(30s / 8 * (8 - 2) * -1) ;
         }
         .item3{
-            animation-delay: -18.75s;
+            animation-delay: calc(30s / 8 * (8 - 3) * -1) ;
         }
         .item4{
-            animation-delay: -15s;
+            animation-delay: calc(30s / 8 * (8 - 4) * -1) ;
         }
         .item5{
-            animation-delay: -11.25s;
+            animation-delay: calc(30s / 8 * (8 - 5) * -1) ;
         }
         .item6{
-            animation-delay: -7.5s;
+            animation-delay: calc(30s / 8 * (8 - 6) * -1) ;
         }
         .item7{
-            animation-delay: -3.75s;
-        } 
+            animation-delay: calc(30s / 8 * (8 - 7) * -1) ;
+        }
         .item8{
-            animation-delay: 0;
+            animation-delay: calc(30s / 8 * (8 - 8) * -1) ;
         }
     </style>
 </head>

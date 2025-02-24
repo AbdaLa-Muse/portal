@@ -132,7 +132,7 @@ nav > a{
     flex-wrap: wrap;
     width: 100%; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
     gap: 80px;
     width: auto;
@@ -148,7 +148,7 @@ nav > a{
     /* height: 160px; */
     /* text-align: center; */
     padding: 10px;
-    /* width: 160px; */
+    width: 260px;
 }
 .section2 .logoSkills h3{
     color: white;

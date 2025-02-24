@@ -58,6 +58,32 @@ body{
    font-weight: normal;
    /* line-height: 35px; */
 }
+ .name {
+        font-size: 3rem;
+        font-family: Arial, sans-serif;
+        color: black;
+        /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        position: relative;
+        animation: glow 1.5s infinite alternate, move 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        }
+        to {
+            /* text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; */
+        }
+    }
+
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
+    }
 
 .container .section1 nav a:hover{
     color: #6cc6ff;;

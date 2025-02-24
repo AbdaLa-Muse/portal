@@ -611,129 +611,322 @@ nav > a{
 
 
 @media (min-width:284px) and (max-width:575px){
-    .body{
-        overflow-x: hidden;
-    }
     .container{
-       width: 440px;
-       height: auto;
-       background-color: yellow;
+        background-color:#2C3E50 ;
+        height: 100vh;
+        width: auto;
     }
     .container .section1{
-            background-color:#ECF0F1;
-            font-family: 'Roboto', sans-serif;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            padding-bottom: 20px;
+        background-color:#ECF0F1;
+        font-family: 'Roboto', sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .container .section1 nav{
         background-color: #2C3E50;
-        height: 50px;
+        height: 30px;
         display: flex;
         justify-content: space-around;
-        margin-top: 30px;
+        margin-top: 15px;
         width: 100%;
-        gap: 20px;
         border-radius: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
 
     }
     .container .section1 nav a{
-        font-size: 15px;
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    
+    }
+    .container .about{
+        /* background-color: #6b99c7; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        height: 100vh;
+        align-items: center;
+        width: 100%;
     }
     .container .about img{
-        height: 150px;
-        border-radius: 40%;
-        margin-left: 30px;
-        margin-right: 20px;
+        height: 130px;
+        border-radius: 20%;
+        padding-right: 5px;
+        margin-top: 30px;
     }
     .container .about h2{
-        font-family: Georgia, serif;
+       font-family: Georgia, serif;
        font-weight: normal;
-       line-height: 30px;
-       margin-left: 20px;
-       font-size: 16px;
+       font-size: 10px;
+       line-height: 15px;
+       padding-left: 5px;
+    }
+    
+    .container .section1 nav a:hover{
+        color: #6cc6ff;;
+    }
+
+   
+    /* section2 halkaan ayuu ka bilaamamanaya  */
+    
+    .section2{
+        background-color: rgb(15 23 42);
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        margin-bottom: auto;
     }
     .section2 h1{
         /* background-color: yellow; */
         width: 50%;
        text-align: center;
        color: #6cc6ff;
-       font-size: 67px;
-       margin: 40px 0 40px 0;
+       font-size: 30px;
+       margin: 30px 0 10px 0;
        letter-spacing: 5px;
     }
-    .section2 .logoSkills{
-        /* display: flex;
-         /* background-color: rebeccapurple; 
-        justify-content: center;
-        gap: 80px;
-        flex-wrap: wrap;
-        width: 100%; */
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 1fr 1fr ;
-        gap: 80px;
-        width: auto;
-        text-align: center;
-        padding: 20px;
     
+    .section2 .logoSkills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        /* background-color: yellow; */
+        gap: 20px;
+           
     }
-  
- 
+    
+    .section2 .logoSkills > div{
+        background-color: #2C3E50 ;
+        border-radius: 8px;
+        height: 100%;
+        width: 100%;
+    }
+    .section2 .logoSkills h3{
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        /* background-color: yellow; */
+        padding-bottom: 10px;
+        letter-spacing: 4px;
+    }
+    
+    .section2 .logoSkills svg{
+        height: 40px;
+    }
+     .section2 .logoSkills svg .frame{
+        fill: #6cc6ff;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* section 3 halkaan ayuu ka bailamanaya*/
+    
+    .section3{
+        background-color:#1e293b;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
     .section3 h1{
-        width: 50%;
+        width: 100%;
         text-align: center;
         color: #6cc6ff;
-        font-size: 57px;
-        margin: 40px 0 40px 0;
+        font-size: 30px;
+        margin: 30px 0 -10px 0;
         letter-spacing: 5px;
     }
     .section3 .logTools {
         display: grid;
-        grid-template-columns: 1fr  ;
-        gap: 80px;
-        width: auto;
-        text-align: center;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 40px;
+    }
+    .section3 .logTools div{
+        background-color: rgb(15 23 42);
+        border-radius: 8px;
+        width: 100%;
+        margin:0;
+        height: 100%   ;
+     
+        padding: 0  ;
+        
+    }
+    .section3 .logTools h4{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 13px;
+        padding-bottom: 5px;
+        margin: 10px ;
+      
+    }
+    .section3 .logTools h5{
+        color: rgb(187, 180, 180);
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 9px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+      
+        margin:0;
+    }
+    .section3 .logTools svg{
+        height: 30px;
+    }
+    .section3 .logTools svg .frame{
+        fill: #6cc6ff;
+    }
+    
+    
+    
+    /* halkan waxaa ka bilaamanaya section 4*/
+    
+    .section4{
+        background-color: rgb(15 23 42);
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        width: 100%;
     }
     .section4 h1{
-        width: 50%;
+        width: 100%;
         text-align: center;
         color: #6cc6ff;
-        font-size: 57px;
-        margin: 40px 0 40px 0;
+        font-size: 30px;
+        margin: 30px 0 30px 0;
         letter-spacing: 5px;
     }
     .section4 .projects{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px;
+       margin-left: -25px;
+       padding: 30px;
+    }
+     .section4 .projects div{
+        border: 2px solid gray;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #1e293b;
+        width: 100%;
+        
+    
+     }
+    
+     .section4 .projects .project1 h3 ,.section4 .projects .project2 h3{
+        letter-spacing: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 20px;
+        color: rgb(207, 207, 207);
+     }
+    
+    
+    
+    
+    
+    /* halkaan waxaa ka bilaamanaya section 5 */
+    
+    .section5{
+        background-color:#1e293b;
+        height: auto;
         display: flex;
-        gap: 60px;
-        flex-direction: column;
         justify-content: space-around;
-        padding-left: 30px;
-        padding-right: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0px;
     }
     .section5 h1{
-        width: 50%;
+        width: 100%;
         text-align: center;
         color: #6cc6ff;
-        font-size: 57px;
-        margin: 40px 0 40px 0;
+        font-size: 30px;
+        margin: 30px 0 30px 0;
         letter-spacing: 5px;
     }
     .section5 .boxServices{
-        display: flex;
-        gap: 60px;
-        flex-direction: column;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+        width: 100%;
+        margin: 0 ;
+        
     }
-
-
-
-    /* .container .section2, .section3, .section4, .section5, .section6{
-        display:none;
-    } */
+    .section5 .boxServices div{
+        background-color: rgb(15 23 42);
+        border-radius: 8px;
+        /* height: 160px; */
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .section5 .boxServices h4{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 13px;
+       margin: 10px;
+        padding-bottom: 5px;
+    }
+    .section5 .boxServices h5{
+        color: rgb(187, 180, 180);
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 9px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    .section5 .boxServices svg .frame{
+        fill: #6cc6ff;
+    }
+    .section5 .boxServices svg{
+        height: 30px;
+    }
+    
+    
+    
+    
+    /* halkaan waxaa ka bilaamanaya section 6 */
+    .section6{
+        background-color:#6cc6ff;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+    }
+    .section6 .contactsLogo{
+        display: flex;
+        gap: 30px;
+    
+    }
+    
+    .section6 .contactsLogo svg{
+        height: 20px;
+    }
 }

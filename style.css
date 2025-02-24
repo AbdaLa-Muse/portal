@@ -58,7 +58,7 @@ body{
    font-weight: normal;
    /* line-height: 35px; */
 }
- .name {
+ .container.name {
         font-size: 3rem;
         font-family: Arial, sans-serif;
         color: black;
@@ -394,7 +394,7 @@ nav > a{
         padding: 20px;
     
     }
-    .name {
+    .container .name {
         font-size: 3rem;
         font-family: Arial, sans-serif;
         color: black;
@@ -470,7 +470,7 @@ nav > a{
        line-height: 30px;
        margin-left: 20px;
     }
-    .name {
+    .container .name {
         font-size: 2rem;
         font-family: Arial, sans-serif;
         color: black;
@@ -622,7 +622,7 @@ nav > a{
        margin-left: 20px;
        font-size: 26px;
     }
-    .name {
+    .container .name {
         font-size: 1rem;
         font-family: Arial, sans-serif;
         color: black;
@@ -793,7 +793,7 @@ nav > a{
        font-family: 'Poppins', sans-serif; 
        padding-left: 5px;
     } */
-    .name {
+    .container .name {
         font-size: 1rem;
         font-family: Arial, sans-serif;
         color: black;

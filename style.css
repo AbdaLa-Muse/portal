@@ -999,7 +999,6 @@ nav > a{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        row-gap: 20px;
         width: 100%;
         margin: 0 ;
         

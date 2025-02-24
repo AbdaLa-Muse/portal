@@ -58,7 +58,7 @@ body{
    font-weight: normal;
    /* line-height: 35px; */
 }
- .container.name {
+ .container .name {
         font-size: 3rem;
         font-family: Arial, sans-serif;
         color: black;

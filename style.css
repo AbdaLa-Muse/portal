@@ -368,6 +368,44 @@ nav > a{
         padding: 20px;
     
     }
+    .name {
+        font-size: 3rem;
+        font-family: Arial, sans-serif;
+        color: black;
+        /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        position: relative;
+        animation: glow 1.5s infinite alternate, move 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        }
+        to {
+            /* text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; */
+        }
+    }
+
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
+    }
+    
+    .container .section1 nav a:hover{
+        color: #6cc6ff;;
+    }
+    .section4 .projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        justify-content: space-around;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
     /* .container .section2, .section3, .section4, .section5, .section6{
         display:none;
@@ -405,6 +443,36 @@ nav > a{
        font-weight: normal;
        line-height: 30px;
        margin-left: 20px;
+    }
+    .name {
+        font-size: 2rem;
+        font-family: Arial, sans-serif;
+        color: black;
+        /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        position: relative;
+        animation: glow 1.5s infinite alternate, move 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        }
+        to {
+            /* text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; */
+        }
+    }
+
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
+    }
+    
+    .container .section1 nav a:hover{
+        color: #6cc6ff;;
     }
     .section2 h1{
         /* background-color: yellow; */
@@ -457,7 +525,8 @@ nav > a{
         letter-spacing: 5px;
     }
     .section4 .projects{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 60px;
         justify-content: space-around;
         padding-left: 30px;
@@ -527,6 +596,36 @@ nav > a{
        margin-left: 20px;
        font-size: 26px;
     }
+    .name {
+        font-size: 1rem;
+        font-family: Arial, sans-serif;
+        color: black;
+        /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        position: relative;
+        animation: glow 1.5s infinite alternate, move 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        }
+        to {
+            /* text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; */
+        }
+    }
+
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
+    }
+    
+    .container .section1 nav a:hover{
+        color: #6cc6ff;;
+    }
     .section2 h1{
         /* background-color: yellow; */
         width: 50%;
@@ -564,7 +663,7 @@ nav > a{
     }
     .section3 .logTools {
         display: grid;
-        grid-template-columns: 1fr  ;
+        grid-template-columns: 1fr 1fr ;
         gap: 80px;
         width: auto;
         text-align: center;
@@ -578,9 +677,9 @@ nav > a{
         letter-spacing: 5px;
     }
     .section4 .projects{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 60px;
-        flex-direction: column;
         justify-content: space-around;
         padding-left: 30px;
         padding-right: 30px;
@@ -661,12 +760,38 @@ nav > a{
         padding-right: 5px;
         margin-top: 30px;
     } */
-    .container .about h2{
+    /* .container .about h2{
        font-family: Georgia, serif;
        font-weight: normal;
        font-size: 30px;
        font-family: 'Poppins', sans-serif; 
        padding-left: 5px;
+    } */
+    .name {
+        font-size: 1rem;
+        font-family: Arial, sans-serif;
+        color: black;
+        /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        position: relative;
+        animation: glow 1.5s infinite alternate, move 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            /* text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; */
+        }
+        to {
+            /* text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; */
+        }
+    }
+
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
     }
     
     .container .section1 nav a:hover{

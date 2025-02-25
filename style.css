@@ -1036,7 +1036,7 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 15px;
-       padding: 20px;
+       padding: 10px;
        margin: 0;
        width: auto;
     }
@@ -1050,7 +1050,7 @@ body{
         margin: 0;
      }
      .section4 .projects img{
-        height: 140px;
+        height: 180px;
         border-radius: 4px;
      }
     

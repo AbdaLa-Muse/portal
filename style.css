@@ -1031,35 +1031,26 @@ body{
         margin: 30px 0 30px 0;
         letter-spacing: 5px;
     }
-  .section4 .projects{
-        width: 100%;
-        display: flex;
-        padding: 20px;
-        justify-content: space-between;
-        /* grid-template-columns: 50% 50%;
+ .section4 .projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap:15px;
-        margin: 0;
-       padding: 30px; */
-       flex-wrap: wrap;
-       gap: 10px;
+        gap: 15px;
+       padding: 20px;
+       margin: 0;
+       width: auto;
     }
-   .section4 .projects div{
+     .section4 .projects div{
         border: 2px solid gray;
         text-align: center;
-        padding: 1px;
+        padding: 5px;
         border-radius: 8px;
         background-color: #1e293b;
-        width: 180px ;
+        width: auto; 
         margin: 0;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
      }
      .section4 .projects img{
-        height: 100px;
+        height: 140px;
         border-radius: 4px;
      }
     

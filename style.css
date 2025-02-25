@@ -33,6 +33,8 @@ body{
     margin-top: 30px;
     width: 80%;
     border-radius: 20px;
+    position: sticky;
+    top: 0;
 }
 .container .section1 nav a{
     color: white;
@@ -251,7 +253,8 @@ nav > a{
     letter-spacing: 5px;
 }
 .section4 .projects{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 60px;
     justify-content: space-around;
 }
@@ -303,7 +306,7 @@ nav > a{
     /* height: 160px; */
     text-align: center;
     padding: 20px;
-    /* width: 160px; */
+    width: 100%;
 }
 
 .section5 .boxServices h4{
@@ -362,6 +365,7 @@ nav > a{
 /*LAPTOP*/
 
 @media (min-width:992px) and (max-width:1199px){
+
     .body{
         overflow-x: hidden;
     }
@@ -378,6 +382,10 @@ nav > a{
             align-items: center;
             width: auto;
     }
+    .container .section1 nav{
+        position: sticky;
+        top: 0;
+    }
     .section2 .logoSkills{
         /* display: flex;
          /* background-color: rebeccapurple; 
@@ -386,7 +394,7 @@ nav > a{
         flex-wrap: wrap;
         width: 100%; */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: 1fr 1fr 1fr ;
         gap: 80px;
         width: auto;
@@ -458,6 +466,10 @@ nav > a{
             align-items: center;
             width: auto;
     }
+    .container .section1 nav{
+        position: sticky;
+        top: 0;
+    }
     .container .about img{
         height: 220ox;
         border-radius: 40%;
@@ -517,7 +529,7 @@ nav > a{
         flex-wrap: wrap;
         width: 100%; */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
         grid-template-rows: 1fr 1fr 1fr ;
         gap: 80px;
         width: auto;
@@ -621,6 +633,10 @@ nav > a{
        line-height: 30px;
        margin-left: 20px;
        font-size: 26px;
+    }
+    .container .section1 nav{
+        position: sticky;
+        top: 0;
     }
     .container .name {
         font-size: 1rem;
@@ -759,6 +775,8 @@ nav > a{
         margin-top: 15px;
         width: 100%;
         border-radius: 20px;
+        position: sticky;
+        top: 0  ;
 
     }
     .container .section1 nav a{

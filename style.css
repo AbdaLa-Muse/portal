@@ -41,6 +41,7 @@ body{
     font-size: 20px;
     text-decoration: none;
     padding-top: 10px;
+    color: lightblue;
 
 }
 .container .about{
@@ -90,17 +91,6 @@ body{
 .container .section1 nav a:hover{
     color: #6cc6ff;;
 }
-
-nav > a{
-    transition: all .8s ease-in;
-
- }
- nav:hover > a{
-     /* transform: translateY(-20%); */
-     transform: rotate(5deg);
-     border-radius: 20%;
-  
- }
 
 
 
@@ -261,15 +251,31 @@ nav > a{
  .section4 .projects > div{
     border: 2px solid gray;
     text-align: center;
-    padding: 100px;
+    padding: 30px;
     border-radius: 8px;
     background-color: #1e293b;
+    width: 100%;
  }
+ .section4 .projects a{
+    text-decoration: none;
+ }
+
+ .section4 .projects img{
+    height: 300px;
+    
+    border-radius: 4px;
+ }
+
 
  .section4 .projects .project1 h3 ,.section4 .projects .project2 h3{
     letter-spacing: 2px;
     margin-top: 10px;
     color: rgb(207, 207, 207);
+ }
+ .section4 .projects  h3:hover{
+    color: #6cc6ff; /* White text on hover */
+    background-color: rgb(15 23 42);/* Bright blue background on hover */
+    border-radius: 6px;
  }
 
 
@@ -440,6 +446,18 @@ nav > a{
         padding-left: 30px;
         padding-right: 30px;
     }
+    .section4 .projects img{
+        height: 180px;
+        border-radius: 4px;
+     }
+  
+
+   
+    .section4 .projects  h3:hover{
+        color: #6cc6ff; /* White text on hover */
+        background-color: rgb(15 23 42);/* Bright blue background on hover */
+        border-radius: 6px;
+     }
 
     /* .container .section2, .section3, .section4, .section5, .section6{
         display:none;
@@ -570,6 +588,18 @@ nav > a{
         padding-left: 30px;
         padding-right: 30px;
     }
+    .section4 .projects img{
+        height: 180px;
+        border-radius: 4px;
+     }
+  
+
+   
+    .section4 .projects  h3:hover{
+        color: #6cc6ff; /* White text on hover */
+        background-color: rgb(15 23 42);/* Bright blue background on hover */
+        border-radius: 6px;
+     }
     .section5 h1{
         width: 50%;
         text-align: center;
@@ -726,7 +756,19 @@ nav > a{
         padding-left: 30px;
         padding-right: 30px;
     }
-    .section5 h1{
+    .section4 .projects img{
+        height: 180px;
+        border-radius: 4px;
+     }
+  
+
+   
+    .section4 .projects  h3:hover{
+        color: #6cc6ff; /* White text on hover */
+        background-color: rgb(15 23 42);/* Bright blue background on hover */
+        border-radius: 6px;
+     }
+     .section5 h1{
         width: 50%;
         text-align: center;
         color: #6cc6ff;
@@ -734,13 +776,13 @@ nav > a{
         margin: 40px 0 40px 0;
         letter-spacing: 5px;
     }
-    .section5 .boxServices{
-        display: flex;
+     .section5 .boxServices{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 60px;
         justify-content: space-around;
+        padding: 20px;
     }
-
-
 
     /* .container .section2, .section3, .section4, .section5, .section6{
         display:none;
@@ -1000,13 +1042,16 @@ nav > a{
      .section4 .projects div{
         border: 2px solid gray;
         text-align: center;
-        padding: 20px;
+        padding: 5px;
         border-radius: 8px;
         background-color: #1e293b;
-        width: 100%;
-        
-    
+        width: 125px;
      }
+     .section4 .projects img{
+        height: 100px;
+        border-radius: 4px;
+     }
+    
     
      .section4 .projects .project1 h3 ,.section4 .projects .project2 h3{
         letter-spacing: 0px;
@@ -1014,8 +1059,15 @@ nav > a{
         padding: 0px;
         font-size: 20px;
         color: rgb(207, 207, 207);
+        /* word-wrap: break-word; 
+        overflow-wrap: break-word; */
+
      }
-    
+     .section4 .projects  h3:hover{
+        color: #6cc6ff; /* White text on hover */
+        background-color: rgb(15 23 42);/* Bright blue background on hover */
+        border-radius: 6px;
+     }
     
     
     
@@ -1041,10 +1093,12 @@ nav > a{
     }
     .section5 .boxServices{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         width: 100%;
         margin: 0 ;
+        gap: 5px;
+        padding: 10px;
         
     }
     .section5 .boxServices div{
@@ -1052,7 +1106,7 @@ nav > a{
         border-radius: 8px;
         /* height: 160px; */
         text-align: center;
-        padding: 20px;
+        padding: 10px;
         width: 100%;
     }
     

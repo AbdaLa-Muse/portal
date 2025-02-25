@@ -35,6 +35,7 @@ body{
     border-radius: 20px;
     position: sticky;
     top: 0;
+     z-index: 2;
 }
 .container .section1 nav a{
     color: white;

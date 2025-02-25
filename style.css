@@ -1044,13 +1044,13 @@ body{
        flex-wrap: wrap;
        gap: 10px;
     }
-     .section4 .projects div{
+   .section4 .projects div{
         border: 2px solid gray;
         text-align: center;
         padding: 1px;
         border-radius: 8px;
         background-color: #1e293b;
-        width: 120px ;
+        width: 180px ;
         margin: 0;
         height: 180px;
         display: flex;
